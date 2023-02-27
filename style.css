@@ -65,6 +65,7 @@ body {
     -webkit-animation: appear 1s var(--ease-out) forwards;
     animation: appear 1s var(--ease-out) forwards;
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .phone::before {
@@ -374,14 +375,14 @@ body {
 }
 
 .content .text:before {
-    content: "MusicArtistName";
+    content: "Rick Astley";
     order: 1;
     text-transform: uppercase;
 }
 
 .content .text:after {
     order: 2;
-    content: "MusicName";
+    content: "Never Gonna Give You Up";
     opacity: 0.5;
 }
 
